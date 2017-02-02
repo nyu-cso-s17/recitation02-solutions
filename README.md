@@ -1,9 +1,5 @@
 # Computer Systems Organization : Recitation 02
 
-- [C Programming](#c-programming)
-- [Basic UNIX](#basic-unix-usage)
-- [Debugging](#debug)
-
 Some of these exercises have multiple ways to solve them.
 
 ## Basic Unix usage
@@ -46,7 +42,7 @@ Some of these exercises have multiple ways to solve them.
 ```
 
 ```
-    grep -r "main(" nginx-1.9.2
+  grep -r "main(" nginx-1.9.2
 
   OR
 
@@ -108,4 +104,6 @@ And there are 1362 lines.
 * To continue execution until the next line of code, type `n`.  
 * With this information, we see that the program continuously executes lines 6 and 7, which are the lines for the condition of a while loop, and its body. We can example the contents of `sum` and `i` per iteration by doing `print i` or `print sum`. We notice that every iteration, `sum` is incremented by 1, and `i` stays constant. With this knowledge, we see that the variable `i` is never incremented, so our loop executes forever.   
 * To fix this bug, we simply add the line `i++;`.  
-* `gcc -g hello_world.c -o hello_world`  
+* `gcc -g hello_world.c -o hello_world`
+
+* For graders: Students will have made the fix to foo. If they have, it is correct.  
