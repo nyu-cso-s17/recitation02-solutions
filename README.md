@@ -42,11 +42,11 @@ Some of these exercises have multiple ways to solve them.
 ```
 
 ```
-  grep -r "main(" nginx-1.9.2
+    grep -r "main(" nginx-1.9.2
 
-  OR
+    OR
 
-  find . -name '*.c' | xargs grep "main("
+    find . -name '*.c' | xargs grep "main("
 ```
 And by inspection, the file is nginx-1.9.2/src/core/nginx.c
 
