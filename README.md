@@ -42,7 +42,7 @@ Some of these exercises have multiple ways to solve them.
 ```
 
 ```
-    grep -r "main(" nginx-1.9.2
+    grep -r "main(" nginx-1.9.2 (or just grep -r "main(" assuming you are in nginx-1.9.2)
 
     OR
 
